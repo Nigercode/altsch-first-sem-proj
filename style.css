@@ -1,0 +1,223 @@
+@font-face {
+    font-family: gilroy-bold-cdnfonts;
+    src: url(fonts/gilroy-bold-cdnfonts/);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --text-color-main-text: #141414;
+    --primary-base-color: rgba(0,101,254,1);
+    --neutral-white: #FFF;
+    --primary-400: #005AE2;
+}
+    
+   
+.header-container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 140px;
+    margin-left: 145.09px ;
+    margin-block: 12px 106px,
+    
+
+
+}
+.logo{display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+.URL-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+ul{list-style: none;
+display: flex;
+gap: 40px}
+
+
+ .frame1,.frame2 { 
+    color: var(--primary-base-color);
+
+}
+
+.frame1-item
+{   color: var(--text-color-main-text, #141414);
+    font-size: 1.125rem;
+    font-family: Gilroy-Medium;
+}
+.frame2{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    font-size: 1em;
+    padding: 1.38em;
+    
+}
+
+.log-in {align-content: center;
+    align-self: center;
+
+}
+
+
+.button { 
+    display: flex;
+    border-radius: 100px;
+    background: var(--primary-300-base, #0065FE);
+    width: 8.875rem;
+    height: 2.75rem;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    gap: 0.625rem;
+    color: var(--neutral-white, #FFF);
+    font-size: 1rem;
+    font-family: Gilroy-SemiBold;
+    line-height: 0.75rem;
+}
+
+.main-container{display: inline-flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     align-content: flex-start;
+     gap: 2rem;
+     margin-inline: 15.38rem;
+     width: 948px;
+     height: 389px;
+    
+
+}
+
+.para-container{display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    
+    }
+
+ .para1-container{ display: flex;
+    width: 948px;
+    height: 200px;
+    flex-direction: column;
+    flex-shrink: 0;
+    
+}
+
+
+.para2-container{
+width: 781px;
+height: 105px;
+flex-direction: column;
+margin-top: 8px;
+}
+
+
+.para1{ color: #141414;
+    text-align: center;
+    font-size: 48px;
+    font-family: Gilroy-Bold;
+    line-height: 96px;
+}
+.para1-img{width: 173.63px;
+    height: 19.908px;
+    margin-bottom: 20.19px;
+    flex-shrink: 0;
+    align-self: center;
+    position: relative;
+    bottom: 30px;
+
+}
+
+
+
+    
+    
+
+.para2{
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 1.125rem;
+    font-family: Gilroy-Medium;
+    line-height: 1.75rem;
+    margin-top: 20.19px;
+
+}
+.main-CTA{display: flex;
+    align-items: center;
+    gap: 56px;}
+
+
+.sign-up-bbtn{
+color: var(--neutral-white, #FFF);
+font-size: 16px;
+font-family: Gilroy-SemiBold;
+line-height: 12px;
+width: 142px;
+height: 44px;
+padding: 12px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;border-radius: 100px;
+background: var(--primary-300-base, #0065FE);
+
+}
+
+.main-CTA-text
+{color: var(--primary-300-base, #0065FE);
+    font-size: 16px;
+    font-family: Gilroy-SemiBold;}
+
+.frame3{display:flex;
+    padding: 40px 60px;
+    margin-inline: 434px 238px;
+    width: 768px;
+    height: 225px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    border-radius: 24px;
+    border: 0.5px solid var(--primary-400, #005AE2);
+    background: rgba(254, 254, 254, 0.10);
+    backdrop-filter: blur(106px);
+
+}
+.link-container{display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+.link1-container{display: flex;
+    align-items: flex-start;
+    gap: -8px;}
+
+.link2-2{width: 5rem;
+    height: 5rem;}
+
+
+.frame-text{display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--text-color-main-text, #141414);
+    text-align: center;
+    font-size: 16px;
+    font-family: Gilroy-Medium;
+    line-height: 24px;}
+
+
+/* style for features page*/
+
+.features-wrapper
+{display: inline-flex;
+padding: 0px 0px 130px 0px;
+flex-direction: column;
+align-items: center;
+gap: 128px;
+background: #FFF;}
+
